@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleOleDBDotNetCore3", "ConsoleOleDBDotNetCore3\ConsoleOleDBDotNetCore3.csproj", "{78AE96FA-A646-40A2-842D-294019246B00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleOleDBDotNetCore3", "ConsoleOleDBDotNetCore3\ConsoleOleDBDotNetCore3.csproj", "{78AE96FA-A646-40A2-842D-294019246B00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleODBCDotNetCore3", "ConsoleODBCDotNetCore3\ConsoleODBCDotNetCore3.csproj", "{3C2DEBC6-D2E3-47A3-8C9E-A82BD36B5A7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleODBCDotNetCore3", "ConsoleODBCDotNetCore3\ConsoleODBCDotNetCore3.csproj", "{3C2DEBC6-D2E3-47A3-8C9E-A82BD36B5A7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppforeach001", "ConsoleAppforeach001\ConsoleAppforeach001.csproj", "{7564F8BE-93E7-4977-9876-D34DBA99D7CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{3C2DEBC6-D2E3-47A3-8C9E-A82BD36B5A7C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3C2DEBC6-D2E3-47A3-8C9E-A82BD36B5A7C}.Release|x86.ActiveCfg = Release|Any CPU
 		{3C2DEBC6-D2E3-47A3-8C9E-A82BD36B5A7C}.Release|x86.Build.0 = Release|Any CPU
+		{7564F8BE-93E7-4977-9876-D34DBA99D7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7564F8BE-93E7-4977-9876-D34DBA99D7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7564F8BE-93E7-4977-9876-D34DBA99D7CB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7564F8BE-93E7-4977-9876-D34DBA99D7CB}.Debug|x86.Build.0 = Debug|Any CPU
+		{7564F8BE-93E7-4977-9876-D34DBA99D7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7564F8BE-93E7-4977-9876-D34DBA99D7CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7564F8BE-93E7-4977-9876-D34DBA99D7CB}.Release|x86.ActiveCfg = Release|Any CPU
+		{7564F8BE-93E7-4977-9876-D34DBA99D7CB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
