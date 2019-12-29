@@ -1,1 +1,1 @@
-﻿The class MPMath include  mass properties procedure Calculation
+﻿The class MPMath includes  mass properties methods Calculation.
