@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppforeach001", "Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppfeoeach002-ListObjectWith2Properties", "ConsoleAppfeoeach002-ListObjectWith2Properties\ConsoleAppfeoeach002-ListObjectWith2Properties.csproj", "{B9C31C4A-C6E8-48E4-99DC-71646650E574}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPPropMathClass", "MPPropMathClass\MPPropMathClass.csproj", "{6F05B4F3-B733-40B0-87C0-D97C0307BD45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPPropMathClass", "MPPropMathClass\MPPropMathClass.csproj", "{6F05B4F3-B733-40B0-87C0-D97C0307BD45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceTVandCalculator", "IterfaceTV\InterfaceTVandCalculator.csproj", "{0C4E12A4-F0F1-416E-8A36-A6576F0624ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{6F05B4F3-B733-40B0-87C0-D97C0307BD45}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6F05B4F3-B733-40B0-87C0-D97C0307BD45}.Release|x86.ActiveCfg = Release|Any CPU
 		{6F05B4F3-B733-40B0-87C0-D97C0307BD45}.Release|x86.Build.0 = Release|Any CPU
+		{0C4E12A4-F0F1-416E-8A36-A6576F0624ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4E12A4-F0F1-416E-8A36-A6576F0624ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4E12A4-F0F1-416E-8A36-A6576F0624ED}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0C4E12A4-F0F1-416E-8A36-A6576F0624ED}.Debug|x86.Build.0 = Debug|Any CPU
+		{0C4E12A4-F0F1-416E-8A36-A6576F0624ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4E12A4-F0F1-416E-8A36-A6576F0624ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4E12A4-F0F1-416E-8A36-A6576F0624ED}.Release|x86.ActiveCfg = Release|Any CPU
+		{0C4E12A4-F0F1-416E-8A36-A6576F0624ED}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
