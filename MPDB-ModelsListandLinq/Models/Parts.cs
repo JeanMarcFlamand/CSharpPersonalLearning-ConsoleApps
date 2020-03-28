@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MPDB_ModelsListandLinq.Models
 {
-    class Parts
+    public class Parts
     {
 
         public static List<Part> LoadParts()
@@ -20,10 +20,6 @@ namespace MPDB_ModelsListandLinq.Models
             output.Add(new Part { Id = 1346316534, PartNumber = "PartB", DescriptionID = -998972681, PartType = "D", CreatedBy = "", CreationDate = Convert.ToDateTime("2020/03/05") });
             output.Add(new Part { Id = 1401459433, PartNumber = "AssyB", DescriptionID = -1796266527, PartType = "A", CreatedBy = "7JTF", CreationDate = Convert.ToDateTime("2020/03/05") });
             output.Add(new Part { Id = 1580138173, PartNumber = "AssyC", DescriptionID = 630123212, PartType = "A", CreatedBy = "7JTF", CreationDate = Convert.ToDateTime("2020/03/05") });
-
-
-            //
-
 
             return output;
     }
