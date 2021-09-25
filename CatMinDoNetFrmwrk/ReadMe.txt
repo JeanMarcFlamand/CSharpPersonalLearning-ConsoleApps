@@ -1,4 +1,7 @@
-#Catia Minimum project
+# Catia Minimum project
+This project create an extrusion pad
 
- Reférence utlisé pour batir ce projet
+Target Framework :  .NET Framework 4.8
+
+Reférence utlisé pour batir ce projet
 https://github.com/MeckeJadeHS/MinimalCatia
