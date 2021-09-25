@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ReadMe.md" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="AnnotationTypeLib">

@@ -1,4 +1,4 @@
-# Catia Minimum project
+﻿# Catia Minimum project
 This project create an extrusion pad
 
 Target Framework :  .NET Framework 4.8
