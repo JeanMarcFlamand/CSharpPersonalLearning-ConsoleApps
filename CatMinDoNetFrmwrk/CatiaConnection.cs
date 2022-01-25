@@ -18,8 +18,8 @@ namespace CatiaMin
         ShapeFactory SF;
         HybridShapeFactory HSF;
 
-        Part myPart;
-        Sketches mySketches;
+        Part MyPart;
+        Sketches MySketches;
 
         public bool IsCatiaLunch()
         {
@@ -40,7 +40,7 @@ namespace CatiaMin
         {
             INFITF.Documents catDocuments1 = Hsp_catiaApp.Documents;
             Hsp_catiaPartDoc = catDocuments1.Add("Part") as MECMOD.PartDocument;
-            myPart = Hsp_catiaPartDoc.Part;
+            MyPart = Hsp_catiaPartDoc.Part;
 
             return true;
         }
@@ -48,11 +48,11 @@ namespace CatiaMin
         public void CreateBlankSketch()
         {
             // Factories for creating model elements (Std and Hybrid)
-            SF = (ShapeFactory)myPart.ShapeFactory;
-            HSF = (HybridShapeFactory)myPart.HybridShapeFactory;
+            SF = (ShapeFactory)MyPart.ShapeFactory;
+            HSF = (HybridShapeFactory)MyPart.HybridShapeFactory;
 
             // Select and rename geometric set
-            HybridBodies catHybridBodies1 = myPart.HybridBodies;
+            HybridBodies catHybridBodies1 = MyPart.HybridBodies;
             HybridBody catHybridBody1;
             try
             {
@@ -68,25 +68,25 @@ namespace CatiaMin
             catHybridBody1.set_Name("Profile");
 
             // Place the new sketch in the selected geometric set on an offset plane
-            mySketches = catHybridBody1.HybridSketches;
-            OriginElements catOriginElements = myPart.OriginElements;
+            MySketches = catHybridBody1.HybridSketches;
+            OriginElements catOriginElements = MyPart.OriginElements;
             HybridShapePlaneOffset hybridShapePlaneOffset1 = HSF.AddNewPlaneOffset(
                 (Reference)catOriginElements.PlaneYZ, 90.000000, false);
             hybridShapePlaneOffset1.set_Name("Offset plane");
             catHybridBody1.AppendHybridShape(hybridShapePlaneOffset1);
-            myPart.InWorkObject = hybridShapePlaneOffset1;
-            myPart.Update();
+            MyPart.InWorkObject = hybridShapePlaneOffset1;
+            MyPart.Update();
 
             HybridShapes hybridShapes1 = catHybridBody1.HybridShapes;
             Reference catReference1 = (Reference)hybridShapes1.Item("Offset plane");
 
-            Hsp_catiaSktech = mySketches.Add(catReference1);
+            Hsp_catiaSktech = MySketches.Add(catReference1);
 
             // Create axis system in sketch 
             CreateAxisSystem();
 
             // Update part
-            myPart.Update();
+            MyPart.Update();
         }
 
         private void CreateAxisSystem()
@@ -134,13 +134,13 @@ namespace CatiaMin
             // Leaving Sketcher
             Hsp_catiaSktech.CloseEdition();
             // Update part
-            myPart.Update();
+            MyPart.Update();
         }
 
         public void CreateExtrusion(Double l)
         {
             // Define main body in process
-            myPart.InWorkObject = myPart.MainBody;
+            MyPart.InWorkObject = MyPart.MainBody;
 
             // Create Pad Extrusion
             Pad catPad1 = SF.AddNewPad(Hsp_catiaSktech, l);
@@ -149,7 +149,7 @@ namespace CatiaMin
             catPad1.set_Name("Extrusion");
 
             // Part Actuatilsation
-            myPart.Update();
+            MyPart.Update();
         }
 
     }

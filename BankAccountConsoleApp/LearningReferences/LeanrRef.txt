@@ -1,0 +1,9 @@
+﻿Step by step
+https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/classes
+Vidéos
+	Object Oriented Programming: Objects and Classes | C# 101 [16 of 19]
+	https://youtu.be/TzgxcAiHCWA
+	Object Oriented Programming: Methods and Members | C# 101 [17 of 19]
+	https://youtu.be/xLhm3bEG__c
+	Object Oriented Programming: Catching Exceptions | C# 101 [19 of 19]
+	https://youtu.be/INfLHh3TDkk
