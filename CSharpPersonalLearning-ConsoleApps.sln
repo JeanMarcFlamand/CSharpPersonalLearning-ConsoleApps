@@ -23,7 +23,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMinDoNetFrmwrk", "CatMin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalCatia", "C:\Users\utilisateur\source\repos\MinimalCatia\MinimalCatia\MinimalCatia.csproj", "{021F20EE-74A5-4642-AB72-7E0B7FCBAE7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountConsoleApp", "BankAccountConsoleApp\BankAccountConsoleApp.csproj", "{1D12D347-956E-4EA2-909E-325D27F1A2B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAccountConsoleApp", "BankAccountConsoleApp\BankAccountConsoleApp.csproj", "{1D12D347-956E-4EA2-909E-325D27F1A2B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumListWithsomeNullValues", "SumListWithsomeNullValues\SumListWithsomeNullValues.csproj", "{371F9E8F-0232-41B1-9130-6EF4B44F4888}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,14 @@ Global
 		{1D12D347-956E-4EA2-909E-325D27F1A2B7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1D12D347-956E-4EA2-909E-325D27F1A2B7}.Release|x86.ActiveCfg = Release|Any CPU
 		{1D12D347-956E-4EA2-909E-325D27F1A2B7}.Release|x86.Build.0 = Release|Any CPU
+		{371F9E8F-0232-41B1-9130-6EF4B44F4888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371F9E8F-0232-41B1-9130-6EF4B44F4888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371F9E8F-0232-41B1-9130-6EF4B44F4888}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{371F9E8F-0232-41B1-9130-6EF4B44F4888}.Debug|x86.Build.0 = Debug|Any CPU
+		{371F9E8F-0232-41B1-9130-6EF4B44F4888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371F9E8F-0232-41B1-9130-6EF4B44F4888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371F9E8F-0232-41B1-9130-6EF4B44F4888}.Release|x86.ActiveCfg = Release|Any CPU
+		{371F9E8F-0232-41B1-9130-6EF4B44F4888}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
