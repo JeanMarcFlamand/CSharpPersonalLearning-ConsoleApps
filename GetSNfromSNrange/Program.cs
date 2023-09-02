@@ -9,7 +9,7 @@ while (continueApp)
     Console.Write("Entrez la plage de valeurs (utilisez le format '4-251, 255, 257-625, 627-660, 672-715') : ");
     string range = Console.ReadLine();
 
-    bool found = getsnfromsnrange(valueToFind, range);
+    bool found = Getsnfromsnrange(valueToFind, range);
 
     if (found)
     {
@@ -31,7 +31,7 @@ while (continueApp)
 
 
 
-static bool getsnfromsnrange(int valueToFind, string range)
+static bool Getsnfromsnrange(int valueToFind, string range)
 {
     // Séparer les plages et valeurs individuelles en utilisant ","
     string[] ranges = range.Split(',');
